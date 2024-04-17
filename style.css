@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif, arial;
+    background-color: rgb(51, 49, 49);
+}
+
+.box {
+    width: 35%;
+    height: 500px;;
+    margin-top: 50px;
+    margin-left: 440px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 35px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(184, 192, 201);
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgb(184, 192, 201);
+    font-size: 16px;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(0, 110, 255);
+}
+
+input:focus::placeholder {
+    color: rgb(0, 110, 255);
+}
+
+
+textarea {
+    width: 400px;
+    height: 80px;
+    margin-left: 35px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid rgb(184, 192, 201);
+    color: white;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+   color: rgb(184, 192, 201); 
+    font-size: 16px;
+}
+
+textarea:focus {
+    border-bottom: 2px solid rgb(0, 110, 255);
+}
+
+textarea:focus::placeholder {
+    color:  rgb(0, 110, 255);
+}
+
+button {
+    width: 100px;
+    height: 33px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.sub {
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    border: none;
+    margin-left: 130px;
+}
+
+.can {
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left: -0px;
+}
+
+.sub:hover {
+    background-color: #fff;
+    color: rgb(0, 132, 255);
+}
+
+.can:hover {
+    background-color: rgb(0, 132, 255);
+    color: #fff; 
+}
